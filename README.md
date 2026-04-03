@@ -104,3 +104,4 @@ poetry run isort src tests
 =======
 # bank_transactions_analyzer
 >>>>>>> 618e82f9fbb8a16ce7b5c153a59993cbc4fab2d9
+\n**Status:** Ready for review ✅
