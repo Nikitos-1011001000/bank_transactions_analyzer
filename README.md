@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \# 💳 Bank Transactions Analyzer
 
 
@@ -96,7 +97,10 @@ poetry run isort src tests
 
 
 
-\## 👨‍💻 Автор
+\## Автор
 
 \*\*Никита Рукин\*\*
 
+=======
+# bank_transactions_analyzer
+>>>>>>> 618e82f9fbb8a16ce7b5c153a59993cbc4fab2d9
