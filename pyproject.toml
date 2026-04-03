@@ -1,0 +1,97 @@
+[tool.poetry]
+packages = [{include = "analyzer", from = "src"}]
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+testpaths = ["tests"]
+addopts = "-v --strict-markers"
+
+[project]
+name = "bank-transactions-analyzer"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Nikita Rukin, walfisch91@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=3.0.1,<4.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "pypi-mirror"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+priority = "primary"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0.2"
+coverage = "^7.13.5"
+pytest-cov = "^7.1.0"
+black = "^26.3.1"
+flake8 = "^7.3.0"
+isort = "^8.0.1"
+mypy = "^1.19.1"
+pandas-stubs = "^3.0.0.260204"
+types-requests = "^2.33.0.20260327"
+requests = "^2.33.1"
+
+[tool.poetry.dependencies]
+requests = "^2.31.0"
+
+[tool.black]
+line-length = 119
+exclude = '''
+/(
+    \.git
+)/
+'''
+
+# isort конфигурация
+[tool.isort]
+line_length = 119
+profile = "black"
+multi_line_output = 3
+
+
+[tool.mypy]
+disallow_untyped_defs = true
+warn_return_any = true
+exclude = ["venv"]
+warn_unused_configs = true
+warn_unused_ignores = false
+packages = ["src"]  
+ignore_missing_imports = true
+
+
+[[tool.mypy.overrides]]
+module = ["parsers", "reports"]
+ignore_missing_imports = true
+
+[tool.coverage.paths]
+source = ["src/"]
+
+[tool.coverage.run]
+source = ["src"]
+omit = [
+    "src/main.py",
+    "src/views.py",
+    "src/__init__.py"
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "logger\\.",
+    "if __name__ == '__main__':",
+    "raise NotImplementedError",
+    "raise AssertionError"
+]
+fail_under = 80
