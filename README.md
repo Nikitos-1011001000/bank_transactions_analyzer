@@ -1,9 +1,9 @@
 <<<<<<< HEAD
-\# 💳 Bank Transactions Analyzer
+\# Bank Transactions Analyzer
 
 
 
-\## 🚀 Описание
+\## Описание
 
 \*\*Анализатор банковских транзакций\*\* — Python CLI приложение для:
 
