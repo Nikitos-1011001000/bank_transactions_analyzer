@@ -1,5 +1,5 @@
 from parsers import load_excel_transactions
-from reports import generate_json_report
+from reports import json_report as generate_json_report
 
 
 def main() -> None:
