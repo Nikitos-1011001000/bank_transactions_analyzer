@@ -1,10 +1,10 @@
-\# Bank Transactions Analyzer
+Bank Transactions Analyzer
 
 
 
-\## Описание
+Описание
 
-\*\*Анализатор банковских транзакций\*\* — Python CLI приложение для:
+Анализатор банковских транзакций — приложение для:
 
 \- Анализа CSV выписок банков
 
@@ -54,10 +54,12 @@ poetry run pytest --cov=src --cov-report=html
 
 ```bash
 
-poetry run python src/main.py transactions.csv
+poetry run python main.py
 
 ```
-
+5. Пример вывода:
+Анализатор транзакций запущен!
+Всего транзакций: 6705
 
 
 \## Локальная разработка
@@ -74,4 +76,3 @@ poetry run flake8 src tests
 
 =======
 # bank_transactions_analyzer
->>>>>>> 618e82f9fbb8a16ce7b5c153a59993cbc4fab2d9
