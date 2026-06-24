@@ -57,7 +57,7 @@ poetry run pytest --cov=src --cov-report=html
 poetry run python main.py
 
 ```
-5\. Пример вывода:\*
+5\. Пример вывода:\*\*
 Анализатор транзакций запущен!
 Всего транзакций: 6705
 
