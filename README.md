@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 \# Bank Transactions Analyzer
 
 
@@ -23,23 +22,15 @@
 
 
 
-\## 🛠 Установка \& Запуск
+\## Установка \& Запуск
 
-
-
-1\. \*\*Клонируй репозиторий:\*\*
+1\. \*\*Клонирование репозитория:\*\*
 
 ```bash
 
-git clone https://github.com/твой\_username/bank\_transactions\_analyzer.git
+git clone https://github.com/Nikitos-1011001000/bank_transactions_analyzer
 
-cd bank\_transactions\_analyzer
-
-```
-
-
-
-2\. \*\*Установи зависимости:\*\*
+2\. \*\*Установка зависимости:\*\*
 
 ```bash
 
@@ -51,17 +42,13 @@ pip install -r requirements.txt
 
 ```
 
-
-
-3\. \*\*Запусти тесты:\*\*
+3\. \*\*Запуск тестов:\*\*
 
 ```bash
 
 poetry run pytest --cov=src --cov-report=html
 
 ```
-
-
 
 4\. \*\*Запуск анализа:\*\*
 
@@ -73,29 +60,13 @@ poetry run python src/main.py transactions.csv
 
 
 
-\## 🔧 Локальная разработка
+\## Локальная разработка
 
 ```bash
 
 \# Линтинг
 
 poetry run flake8 src tests
-
-
-
-\# Форматирование
-
-poetry run isort src tests
-
-```
-
-
-
-\## 📄 Лицензия
-
-\[MIT](LICENSE)
-
-
 
 \## Автор
 
