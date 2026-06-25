@@ -1,8 +1,8 @@
-Bank Transactions Analyzer
+# Bank Transactions Analyzer
 
 
 
-Описание
+# Описание
 
 Анализатор банковских транзакций — приложение для:
 
@@ -33,8 +33,9 @@ git clone https://github.com/Nikitos-1011001000/bank_transactions_analyzer
 
 poetry install
 
+'''
 или
-
+'''
 pip install -r requirements.txt
 
 ```
@@ -67,6 +68,7 @@ poetry run python main.py
 ## Линтинг
 
 poetry run flake8 src tests
+
 
 ## Автор
 
