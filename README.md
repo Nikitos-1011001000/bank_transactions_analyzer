@@ -61,10 +61,6 @@ poetry run python main.py
 Всего транзакций: 6705
 
 
-## Локальная разработка
-
-```bash
-```
 ## Линтинг
 ```
 poetry run flake8 src tests
@@ -73,7 +69,7 @@ poetry run flake8 src tests
 
 ## Автор
 
-\*\*Никита Рукин\*\*
+\Никита Рукин\
 
 =======
-# bank_transactions_analyzer
+bank_transactions_analyzer
