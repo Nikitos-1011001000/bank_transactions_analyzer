@@ -12,7 +12,9 @@ Bank Transactions Analyzer
 
 
 
-\*\*Тех стек:\*\* `pandas` `requests` `pytest` `mypy` `poetry` `flake8`
+##Тех стек:
+
+`pandas` `requests` `pytest` `mypy` `poetry` `flake8`
 
 
 
