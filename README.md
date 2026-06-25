@@ -25,7 +25,7 @@
 ```bash
 
 git clone https://github.com/Nikitos-1011001000/bank_transactions_analyzer
-
+```
 
 2\.Установка зависимости:
 
@@ -64,11 +64,12 @@ poetry run python main.py
 ## Локальная разработка
 
 ```bash
-
+```
 ## Линтинг
-
+```
 poetry run flake8 src tests
 
+```
 
 ## Автор
 
