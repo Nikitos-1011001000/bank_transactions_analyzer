@@ -12,13 +12,13 @@ Bank Transactions Analyzer
 
 
 
-###Тех стек:
+## Тех стек:
 
 `pandas` `requests` `pytest` `mypy` `poetry` `flake8`
 
 
 
-\###Установка \& Запуск
+## Установка \& Запуск
 
 1\. Клонирование репозитория:
 
@@ -26,13 +26,14 @@ Bank Transactions Analyzer
 
 git clone https://github.com/Nikitos-1011001000/bank_transactions_analyzer
 
-2\. Установка зависимости:
+
+2\.Установка зависимости:
 
 ```bash
 
 poetry install
 
-\# или
+или
 
 pip install -r requirements.txt
 
@@ -59,15 +60,15 @@ poetry run python main.py
 Всего транзакций: 6705
 
 
-\## Локальная разработка
+## Локальная разработка
 
 ```bash
 
-\# Линтинг
+## Линтинг
 
 poetry run flake8 src tests
 
-\## Автор
+## Автор
 
 \*\*Никита Рукин\*\*
 
