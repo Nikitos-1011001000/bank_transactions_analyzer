@@ -12,21 +12,21 @@ Bank Transactions Analyzer
 
 
 
-##Тех стек:
+###Тех стек:
 
 `pandas` `requests` `pytest` `mypy` `poetry` `flake8`
 
 
 
-\## Установка \& Запуск
+\###Установка \& Запуск
 
-1\. \*\*Клонирование репозитория:\*\*
+1\. Клонирование репозитория:
 
 ```bash
 
 git clone https://github.com/Nikitos-1011001000/bank_transactions_analyzer
 
-2\. \*\*Установка зависимости:\*\*
+2\. Установка зависимости:
 
 ```bash
 
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 ```
 
-3\. \*\*Запуск тестов:\*\*
+3\. Запуск тестов:
 
 ```bash
 
@@ -46,7 +46,7 @@ poetry run pytest --cov=src --cov-report=html
 
 ```
 
-4\. \*\*Запуск анализа:\*\*
+4\. Запуск анализа:
 
 ```bash
 
