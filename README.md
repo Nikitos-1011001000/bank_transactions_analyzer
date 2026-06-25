@@ -69,7 +69,4 @@ poetry run flake8 src tests
 
 ## Автор
 
-\Никита Рукин\
-
-=======
-bank_transactions_analyzer
+Никита Рукин
